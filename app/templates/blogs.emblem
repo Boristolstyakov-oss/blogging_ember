@@ -1,0 +1,4 @@
+.box.box-info
+  .box-header.with-border
+    h3.box-title Latest Blogs
+  = outlet

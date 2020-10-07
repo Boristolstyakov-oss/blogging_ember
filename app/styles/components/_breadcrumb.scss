@@ -1,0 +1,10 @@
+.breadcrumb {
+  li.active {
+    a {
+      text-decoration: none;
+      color: #777;
+      pointer-events: none;
+      cursor: default;
+    }
+  }
+}

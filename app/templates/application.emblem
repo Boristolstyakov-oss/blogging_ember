@@ -1,0 +1,16 @@
+header.main-header
+  = link-to 'index' class='logo' | <b>Blogger</b> Admin
+  = render 'application/navbar'
+%aside.main-sidebar
+  section.sidebar
+    = partial 'application/sidebar'
+
+.content-wrapper
+  section.content-header
+    h1 = contentHeader
+    = bread-crumbs tagName='ol' classNames='breadcrumb'
+
+  section.content
+    .row
+      .col-md-12
+        = outlet

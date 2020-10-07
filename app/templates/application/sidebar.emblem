@@ -1,0 +1,18 @@
+.user-panel
+  .pull-left.image
+    img.img-circle alt='user image' src='http://graph.facebook.com/711612498881201/picture?height=90&type=square&width=90'
+  .pull-left.info
+    p Alexander Pierce
+    a href='#'
+      i.fa.fa-circle.text-success  Online
+
+ul.sidebar-menu
+  li.header MAIN NAVIGATION
+  = link-to 'index' tagName='li'
+    = link-to bind-attr href='view.href'
+      i.fa.fa-dashboard
+      span Dashboard
+  = link-to 'blogs' tagName='li'
+    = link-to bind-attr href='view.href'
+      i.fa.fa-edit
+      span Blogs

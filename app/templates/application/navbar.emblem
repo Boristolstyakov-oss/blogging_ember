@@ -1,0 +1,21 @@
+a.sidebar-toggle href='#' data-toggle='offcanvas' role='button' click='toggleSidebar'
+  span.sr-only Toggle navigation
+.navbar-custom-menu
+  ul.nav.navbar-nav
+    li.dropdown.user.user-menu
+      a.dropdown-toggle href="#" data-toggle="dropdown"
+        img.user-image src="http://graph.facebook.com/711612498881201/picture?height=90&type=square&width=90" alt="User Image"
+        span.hidden-xs Alexander Pierce
+
+      ul.dropdown-menu
+        li.user-header
+          img.img-circle src="http://graph.facebook.com/711612498881201/picture?height=90&type=square&width=90" alt="User Image"
+          p
+            | Alexander Pierce - Web Developer
+            small Member since Nov. 2012
+        li.user-body
+          .col-md-12.text-center
+            a href='#' Leave admin panel
+        li.user-footer
+          .pull-right
+            a.btn.btn-default.btn-flat href='#' Sign out

@@ -1,0 +1,9 @@
+.main-header {
+  a {
+    &:hover,
+    &:active,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+}

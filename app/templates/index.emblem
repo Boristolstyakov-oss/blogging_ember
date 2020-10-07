@@ -1,0 +1,11 @@
+.row
+  .col-lg-3.col-xs-6
+    .small-box.bg-aqua
+      .inner
+        %h3 0
+        %p New Blogs
+      .icon
+        i.ion.ion-bag
+      a.small-box-footer href="#"
+        ' More info
+        i.fa.fa-arrow-circle-right

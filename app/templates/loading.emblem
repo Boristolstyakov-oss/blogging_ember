@@ -1,0 +1,5 @@
+.loading-pane
+  .loading-message.text-center.text-muted
+    | Sometimes it's good to stretch...
+    .loading-spinner
+      i.fa.fa-spinner.fa-pulse
